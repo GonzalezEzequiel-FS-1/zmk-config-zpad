@@ -1,0 +1,29 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp KC_NUMLOCK  &kp KC_KP_SLASH &kp KC_KP_ASTERISK &kp KC_KP_MINUS
+                &none           &kp KC_KP_9     &kp KC_KP_8        &kp KC_KP_7
+                &kp KC_KP_PLUS  &kp KC_KP_6     &kp KC_KP_5        &kp KC_KP_4
+                &none           &kp KC_KP_3     &kp KC_KP_2        &kp KC_KP_1
+                &kp KC_KP_ENTER &none           &kp KC_KP_DOT      &kp KC_KP_0
+            >;
+        };
+
+        bt_layer {
+            bindings = <
+                &bt BT_SEL_0 &bt BT_SEL_1 &bt BT_SEL_2 &bt BT_SEL_3
+                &bt BT_SEL_4 &bt BT_CLR   &reset       &boot
+                &none        &none        &none        &none
+                &none        &none        &none        &none
+                &none        &none        &none        &none
+            >;
+        };
+    };
+};

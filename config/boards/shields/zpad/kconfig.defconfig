@@ -1,0 +1,6 @@
+if SHIELD_ZPAD
+
+config ZMK_KEYBOARD_NAME
+    default "zpad"
+
+endif

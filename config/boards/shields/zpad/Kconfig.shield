@@ -1,0 +1,2 @@
+config SHIELD_ZPAD
+    def_bool $(shields_list_contains, zpad)
