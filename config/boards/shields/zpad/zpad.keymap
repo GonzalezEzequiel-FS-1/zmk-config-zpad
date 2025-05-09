@@ -6,11 +6,11 @@
 
     default_layer {
         bindings = <
-            &kp KC_NUMLOCK  &kp KC_KP_SLASH  &kp KC_KP_ASTERISK &kp KC_KP_MINUS
-            &nop             &kp KC_KP_9      &kp KC_KP_8        &kp KC_KP_7
-            &kp KC_KP_PLUS   &kp KC_KP_6      &kp KC_KP_5        &kp KC_KP_4
-            &nop             &kp KC_KP_3      &kp KC_KP_2        &kp KC_KP_1
-            &kp KC_KP_ENTER  &nop             &kp KC_KP_DOT      &kp KC_KP_0
+                &kp KP_NUMLOCK  &kp KP_SLASH    &kp KP_ASTERISK &kp KP_MINUS
+                &none           &kp KP_NUMBER_9 &kp KP_NUMBER_8 &kp KP_NUMBER_7
+                &kp KP_PLUS     &kp KP_NUMBER_6 &kp KP_NUMBER_5 &kp KP_NUMBER_4
+                &none           &kp KP_NUMBER_3 &kp KP_NUMBER_2 &kp KP_NUMBER_1
+                &kp KP_ENTER    &none           &kp KP_DOT      &kp KP_NUMBER_0
         >;
     };
 };
